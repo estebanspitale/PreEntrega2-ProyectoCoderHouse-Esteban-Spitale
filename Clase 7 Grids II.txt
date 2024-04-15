@@ -1,0 +1,9 @@
+. z-index: 1
+. box-shadow
+. position relitive con el elemento padre
+. position absolute con el elemento hijo
+--> ubicar el elemento hijo en alguna parte del elemento
+. Diseño responsive:
+los @media siempre se trabajan con px porque las pantallas se miden en esta medida
+. MObile first:
+Diseñamos una pagina para mobiles y adaptamos la misma para dispositivos mas grandes
