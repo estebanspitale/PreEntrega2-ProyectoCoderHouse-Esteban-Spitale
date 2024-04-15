@@ -1,3 +1,0 @@
-Pseudoclases - Pseudoelementos
-
-. Lo llamo con :  (despues del break)

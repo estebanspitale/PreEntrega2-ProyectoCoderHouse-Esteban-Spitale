@@ -1,6 +1,0 @@
-Clase 6: Grids
-
-. box-sizing: respeta el tamaño de los elementos (27min)
-. division de los grids (40min)
-. distribucion de los espacios de una pagina por areas - Forma muy utilizada de llevar a cabo proyectos
-. content: es para las grillas completas e items es para los elementos de la grilla
