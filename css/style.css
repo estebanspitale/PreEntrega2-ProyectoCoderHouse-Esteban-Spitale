@@ -414,6 +414,7 @@ h1{
         }
 }
 /*----------------------SERVICIOS----------------------*/
+/*------El estilo esta aplicado en el INDEX---------*/
 
 /*.servicios{
         text-align: center;
@@ -438,10 +439,35 @@ h1{
 
 .general{
         text-align: center;
-        margin: 50px;
-        font-weight: 500;
-        color: rgb(6, 90, 31);;
-        }
+        width: 96%;
+        margin: 15px;
+        color: rgb(3, 59, 20);
+        background: linear-gradient(90deg, rgb(112, 180, 73), rgb(67, 116, 87));
+        padding: 30px;
+}
+label {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px;
+}
+input {
+        width: 30%;
+        text-align: left;
+        padding: 5px;
+        border-bottom: 1px solid black;
+        border-radius: 4px;
+}
+textarea {
+        width: 100%;
+        padding: 5px;
+        border-bottom: 2px solid black;
+        border-radius: 5px;
+}
+.enviar {
+        margin: 30px;
+        font-weight: 900;
+}
 .mapa{
+        width: 100%;
         text-align: center;
 }
