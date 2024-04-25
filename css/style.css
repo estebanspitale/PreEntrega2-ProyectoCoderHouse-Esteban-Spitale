@@ -8,6 +8,7 @@ Coolors - The super fast color palettes generator!Coolors
 https://coolors.co
 https://getbootstrap.com/
 https://docs.google.com/document/d/18TgOaz9-3gEFlcJhgpQm7N0cYseTV48OPnmLtRHF3Ao/edit
+https://nic.ar/ --> dominios
 */
 
 
@@ -438,6 +439,7 @@ h1{
 /*----------------------CONTACTO----------------------*/
 
 .general{
+
         text-align: center;
         width: 96%;
         margin: 15px;
@@ -452,7 +454,7 @@ label {
 }
 input {
         width: 30%;
-        text-align: left;
+        text-align: center;
         padding: 5px;
         border-bottom: 1px solid black;
         border-radius: 4px;
@@ -463,11 +465,28 @@ textarea {
         border-bottom: 2px solid black;
         border-radius: 5px;
 }
-.enviar {
-        margin: 30px;
-        font-weight: 900;
-}
-.mapa{
-        width: 100%;
+.mapa {
         text-align: center;
+        padding: 20px;
+}
+@media screen and (max-width:650px) {
+        .mapa iframe{
+                text-align: center;
+        }
+        .general{
+
+                text-align: center;
+                width: 96%;
+                margin: 5px;
+                color: rgb(3, 59, 20);
+                background: linear-gradient(90deg, rgb(112, 180, 73), rgb(67, 116, 87));
+                padding: 10px;
+        }
+        input {
+                width: 60%;
+                text-align: center;
+                padding: 5px;
+                border-bottom: 1px solid black;
+                border-radius: 4px;
+        }
 }
