@@ -1,0 +1,330 @@
+/*! ------------Media Query - INDEX ------------*/
+
+@media screen and (max-width:980px) {
+    main{
+        .servicios{
+            text-align: center;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            div{
+                a{
+                    font-size: 40px;
+                    text-align: center;
+                    color: rgb(6, 90, 31);
+                }
+                img{
+                    width: 300px;
+                    height: 200px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}    
+@media screen and (max-width:682px) {
+    header{
+        position: sticky; /*deja fijo el header en scroll por toda la pagina*/
+        top: 0;
+        padding: 5px;
+        z-index: 1; /*todos los demas elementos son 0, por ende, pasan por debajo del header*/
+        font-size: 20px;
+        font-weight: 700; 
+        nav{
+            display: flex;
+            justify-content: space-between;   
+            align-items: center;     
+            color: rgb(17, 78, 69);
+            .container-fluid{
+                background-color: rgb(17, 78, 69);
+                a{
+                    img{
+                        width: 130px;
+                        height: 100px;
+                        padding: 5px 10px 5px 20px;   
+                    }
+                }
+                .collapse{
+                    ul{
+                        li{
+                            .nav-link{
+                                color: white;
+                                margin: 15px;
+                                &:hover{
+                                    color: rgb(0, 0, 0)
+                                }
+                            }
+                        }
+                        li{
+                            
+                            ul{
+                                li{
+                                    a{
+                                        text-decoration: none;
+                                        color: rgb(0, 255, 255);
+                                        margin: 15px;
+                                        font-size: 15px;
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        section{
+            .whatsapp{
+                img{
+                    width: 50px;
+                    height: 50px;
+                    position:fixed;
+                    bottom: 20px;
+                    right:20px;
+                }
+            }
+        }
+    }
+    main{
+        .principal{
+            h1{
+                color: rgb(45, 143, 110);
+                font-size: 40px;
+                text-align: center;
+                font-family:Arial, sans-serif;
+                font-weight: 900;
+            }
+            h2{
+                font-size: 40px;
+                border: 2px solid white;
+                padding: 10px;
+            }
+        }
+    }
+    main{
+        .hero{ 
+            div{
+                h3{
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 20px;
+                }
+                p{
+                    padding: 20px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:590px) {
+    header{
+            position: static;
+            nav{
+                .container-fluid{
+                    .collapse{
+                        ul{
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            li{
+                                a{
+                                    color: rgb(0, 255, 255);
+                                    margin-right: 25px;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    }
+    main{
+        .servicios{
+            text-align: center;
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 1fr;
+            div{
+                a{
+                    font-size: 35px;
+                    text-align: center;
+                }
+                img{
+                    width: 430px;
+                    height: 200px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:450px) {
+    header{
+            position: static;
+            nav{
+                ul{
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    li{
+                        a{
+                            color: rgb(0, 255, 255);
+                            margin-right: 25px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+    }
+
+    main{
+        .servicios{
+            div{
+                a{
+                    font-size: 40px;
+                    text-align: center;
+                }
+                img{
+                    width: 300px;
+                    height: 200px;
+                    padding: 10px;
+                }    
+            }
+        }
+    }
+    footer{
+        section{
+            .whatsapp{
+                img{
+                    width: 30px;
+                    height: 30px;
+                    position:fixed;
+                    bottom: 20px;
+                    right:20px;
+                }
+            }
+        }
+    }
+}
+/*----------------------NOSOTROS----------------------*/
+@media screen and (max-width:720px) {
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                        text-decoration: none;
+                        color: rgb(0, 255, 255);
+                        margin: 15px;
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }    
+}
+@media screen and (max-width:630px) {
+    header{
+            position: static;
+            nav{
+                ul{
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    li{
+                        a{
+                            color: rgb(0, 255, 255);
+                            margin-right: 25px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+    }
+    main{
+        .accordion{
+            .accordion-item{
+                .accordion-collapse{
+                    .accordion-body{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }    
+}
+
+/*----------------------PRODUCTOS----------------------*/
+@media screen and (max-width:800px) {
+    main{
+        .productos{
+            width:98%;
+            margin: 10px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: 240px;
+            gap: 15px;
+            .img-3{
+                grid-column: span 1;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:380px) {
+    main{
+        .productos{
+            width:98%;
+            margin: 10px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-auto-rows: 240px;
+            gap: 15px;
+            .img-1{
+                grid-column: span 1;
+            }
+            .img-2{
+                    grid-row: span 1;
+            }
+            .img-3{
+                    grid-column: span 1;
+            }
+        }
+    }   
+}
+
+/*----------------------CONTACTO----------------------*/
+@media screen and (max-width:650px) {
+    main{
+        .general{
+            text-align: center;
+            width: 96%;
+            margin: 5px;
+            color: rgb(3, 59, 20);
+            background: linear-gradient(90deg, rgb(112, 180, 73), rgb(67, 116, 87));
+            padding: 10px;
+            form{
+                div{
+                    input {
+                        width: 60%;
+                        text-align: center;
+                        padding: 5px;
+                        border-bottom: 1px solid black;
+                        border-radius: 4px;
+                    }
+                }
+            }
+        }
+        .mapa{
+            iframe{
+                text-align: center;
+            }    
+        }
+    }
+}

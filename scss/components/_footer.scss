@@ -1,0 +1,31 @@
+footer{
+    margin-top: 20px;
+    section{
+        .whatsapp{
+            img{
+                width: 90px;
+                height: 90px;
+                position:fixed;
+                bottom: 30px;
+                right:30px; 
+            }
+        }
+        .copy{
+            text-align: center;
+            color: black;
+            font-weight: bold;
+        }
+        .redes{
+            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            a{
+                img{
+                    margin: 20px;
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+/*HEADER*/
+
+header{
+    position: sticky; /*deja fijo el header en scroll por toda la pagina*/
+    top: 0;
+    padding: 5px;
+    z-index: 1; /*todos los demas elementos son 0, por ende, pasan por debajo del header*/
+    font-size: 20px;
+    font-weight: 700; 
+    nav{
+        display: flex;
+        justify-content: space-between;   
+        align-items: center;     
+        color: $color-principal;
+        .container-fluid{
+            background-color: rgb(17, 78, 69);
+            a{
+                img{
+                    width: 130px;
+                    height: 100px;
+                    padding: 5px 10px 5px 20px;   
+                }
+            }
+            .collapse{
+                ul{
+                    li{
+                        .nav-link{
+                            color: $color-secundario;
+                            margin: 15px;
+                            &:hover{
+                                color: rgb(0, 0, 0)
+                            }
+                        }
+                    }
+                    li{
+                        
+                        ul{
+                            li{
+                                a{
+                                    text-decoration: none;
+                                    color: $color-terciario;
+                                    margin: 10px;
+                                    font-size: 15px;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

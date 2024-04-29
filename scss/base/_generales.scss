@@ -1,0 +1,72 @@
+//! VARIABLES
+
+$color-principal:rgb(17, 78, 69);
+$color-secundario: white;
+$color-terciario: rgb(5, 44, 44);
+$centrar: center;
+
+//! LISTAS
+
+$font-size:
+10px,
+15px,
+20px,
+25px,
+30px;
+
+//! OPERACIONES (+ - * /)
+
+    //Tema entendido, no aplicado para no alterar valores
+    
+//! MAPAS  --->>>>
+
+/*$servicios:(
+    bg-boton: black,
+    color-text: white,
+);
+
+.servicios{
+    background-color: map-get ($servicios, bg-boton);
+}*/
+
+//! EXTENDS
+//PLACEHOLDER
+
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .principal{
+    @extend %flex-center;
+}
+
+//! MIXINS
+
+@mixin flex($flex, $justify, $align, $direction){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+.none{
+    @include flex(flex, center, center, row)
+}
+
+//! CONDICIONAL
+
+@mixin modos ($modo-dark){
+@if $modo-dark == balck{
+    background-color: black;
+    color: white;
+}@else{
+    background-color: white;
+    color: black;
+}
+}
+
+.general{
+    @include modos (black);
+}
