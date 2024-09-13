@@ -8,7 +8,8 @@
 ![Vista previa de la app](ruta/de/imagen.png)
 
 ## Descripción  
-**SPOTLESS** es una aplicación web intuitiva que permite gestionar de forma eficiente tareas de limpieza. Fue creada como parte de un desafío técnico para demostrar habilidades en desarrollo frontend.
+**SPOTLESS** es una aplicación web intuitiva que permite gestionar de forma eficiente tareas de limpieza.
+Fue creada como parte de un desafío técnico para demostrar habilidades en desarrollo frontend.
 
 ## Funcionalidades Principales 📋  
 - ✔️ Interfaz responsiva con diseño moderno.
