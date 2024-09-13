@@ -1,4 +1,4 @@
-                                                              SPOTLESS
+                                                      SPOTLESS
 
 Descripción
 Spotless es una aplicación diseñada para optimizar la gestión de servicios de limpieza, 
