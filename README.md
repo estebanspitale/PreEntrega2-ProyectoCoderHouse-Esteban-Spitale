@@ -1,21 +1,23 @@
-                                                      SPOTLESS
 
-  -Descripción - 
-  
-Spotless es una aplicación diseñada para optimizar la gestión de servicios de limpieza, 
-ofreciendo una interfaz intuitiva y funcional para facilitar tanto la reserva de servicios como la administración de clientes y trabajadores. 
-Este proyecto fue desarrollado como parte de un challenge técnico, poniendo en práctica tecnologías modernas de desarrollo frontend.
+### Ejemplo Mejorado del README:
 
-  -Tecnologías Utilizadas-
-  
-HTML5 y CSS3 para la estructura y el diseño responsive.
-JavaScript (ES6+) para la interacción dinámica.
-API REST para la integración con datos en tiempo real (si aplica).
-Git y GitHub para control de versiones y colaboración.
+```markdown
+# SPOTLESS - Proyecto CH 🚀  
+**Desarrollado por: Esteban Spitale**
 
-  -Funcionalidades-
-  
-Reserva de servicios de limpieza de manera sencilla y rápida.
-Gestión de usuarios: clientes y trabajadores.
-Panel administrativo para controlar los servicios en curso.
-Interfaz amigable y responsive, adaptable a dispositivos móviles.
+![Vista previa de la app](ruta/de/imagen.png)
+
+## Descripción  
+**SPOTLESS** es una aplicación web intuitiva que permite gestionar de forma eficiente tareas de limpieza. Fue creada como parte de un desafío técnico para demostrar habilidades en desarrollo frontend.
+
+## Funcionalidades Principales 📋  
+- ✔️ Interfaz responsiva con diseño moderno.
+- 📊 Gestión y filtrado de tareas.
+- 🔄 Actualización dinámica de estado de las tareas.
+
+## Tecnologías Utilizadas 🛠  
+| Tecnología    | Descripción              |
+|---------------|--------------------------|
+| **React**     | Framework frontend        |
+| **JavaScript ES6+** | Lógica de la aplicación  |
+| **HTML5 y CSS3**  | Diseño y estructura       |
