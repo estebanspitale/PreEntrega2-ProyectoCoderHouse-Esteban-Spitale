@@ -1,6 +1,3 @@
-
-### Ejemplo Mejorado del README:
-
 ```markdown
 # SPOTLESS - Proyecto CH 🚀  
 **Desarrollado por: Esteban Spitale**
